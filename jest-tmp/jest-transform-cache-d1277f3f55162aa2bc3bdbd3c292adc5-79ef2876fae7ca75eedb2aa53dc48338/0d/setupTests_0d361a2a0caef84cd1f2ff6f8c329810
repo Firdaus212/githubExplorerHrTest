@@ -1,0 +1,16 @@
+1889a901204c3507f4e9e83523c03837
+"use strict";
+
+require("@testing-library/jest-dom");
+var _enzyme = _interopRequireDefault(require("enzyme"));
+var _enzymeAdapterReact = _interopRequireDefault(require("enzyme-adapter-react-16"));
+function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
+// jest-dom adds custom jest matchers for asserting on DOM nodes.
+// allows you to do things like:
+// expect(element).toHaveTextContent(/react/i)
+// learn more: https://github.com/testing-library/jest-dom
+
+_enzyme["default"].configure({
+  adapter: new _enzymeAdapterReact["default"]()
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJyZXF1aXJlIiwiX2VuenltZSIsIl9pbnRlcm9wUmVxdWlyZURlZmF1bHQiLCJfZW56eW1lQWRhcHRlclJlYWN0IiwiZSIsIl9fZXNNb2R1bGUiLCJFbnp5bWUiLCJjb25maWd1cmUiLCJhZGFwdGVyIiwiQWRhcHRlciJdLCJzb3VyY2VzIjpbInNldHVwVGVzdHMuanMiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gamVzdC1kb20gYWRkcyBjdXN0b20gamVzdCBtYXRjaGVycyBmb3IgYXNzZXJ0aW5nIG9uIERPTSBub2Rlcy5cclxuLy8gYWxsb3dzIHlvdSB0byBkbyB0aGluZ3MgbGlrZTpcclxuLy8gZXhwZWN0KGVsZW1lbnQpLnRvSGF2ZVRleHRDb250ZW50KC9yZWFjdC9pKVxyXG4vLyBsZWFybiBtb3JlOiBodHRwczovL2dpdGh1Yi5jb20vdGVzdGluZy1saWJyYXJ5L2plc3QtZG9tXHJcbmltcG9ydCBcIkB0ZXN0aW5nLWxpYnJhcnkvamVzdC1kb21cIjtcclxuaW1wb3J0IEVuenltZSBmcm9tIFwiZW56eW1lXCI7XHJcbmltcG9ydCBBZGFwdGVyIGZyb20gXCJlbnp5bWUtYWRhcHRlci1yZWFjdC0xNlwiO1xyXG5cclxuRW56eW1lLmNvbmZpZ3VyZSh7IGFkYXB0ZXI6IG5ldyBBZGFwdGVyKCkgfSk7XHJcbiJdLCJtYXBwaW5ncyI6Ijs7QUFJQUEsT0FBQTtBQUNBLElBQUFDLE9BQUEsR0FBQUMsc0JBQUEsQ0FBQUYsT0FBQTtBQUNBLElBQUFHLG1CQUFBLEdBQUFELHNCQUFBLENBQUFGLE9BQUE7QUFBOEMsU0FBQUUsdUJBQUFFLENBQUEsV0FBQUEsQ0FBQSxJQUFBQSxDQUFBLENBQUFDLFVBQUEsR0FBQUQsQ0FBQSxnQkFBQUEsQ0FBQTtBQU45QztBQUNBO0FBQ0E7QUFDQTs7QUFLQUUsa0JBQU0sQ0FBQ0MsU0FBUyxDQUFDO0VBQUVDLE9BQU8sRUFBRSxJQUFJQyw4QkFBTyxDQUFDO0FBQUUsQ0FBQyxDQUFDIiwiaWdub3JlTGlzdCI6W119

@@ -1,0 +1,11 @@
+07033f1d325ae330532b2fc3634715d7
+"use strict";
+
+require("@testing-library/jest-dom");
+var _enzyme = require("enzyme");
+var _enzymeAdapterReact = _interopRequireDefault(require("enzyme-adapter-react-16"));
+function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
+(0, _enzyme.configure)({
+  adapter: new _enzymeAdapterReact["default"]()
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJyZXF1aXJlIiwiX2VuenltZSIsIl9lbnp5bWVBZGFwdGVyUmVhY3QiLCJfaW50ZXJvcFJlcXVpcmVEZWZhdWx0IiwiZSIsIl9fZXNNb2R1bGUiLCJjb25maWd1cmUiLCJhZGFwdGVyIiwiQWRhcHRlciJdLCJzb3VyY2VzIjpbInNldHVwVGVzdHMuanMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFwiQHRlc3RpbmctbGlicmFyeS9qZXN0LWRvbVwiO1xyXG5pbXBvcnQgeyBjb25maWd1cmUgfSBmcm9tIFwiZW56eW1lXCI7XHJcbmltcG9ydCBBZGFwdGVyIGZyb20gXCJlbnp5bWUtYWRhcHRlci1yZWFjdC0xNlwiO1xyXG5cclxuY29uZmlndXJlKHsgYWRhcHRlcjogbmV3IEFkYXB0ZXIoKSB9KTtcclxuIl0sIm1hcHBpbmdzIjoiOztBQUFBQSxPQUFBO0FBQ0EsSUFBQUMsT0FBQSxHQUFBRCxPQUFBO0FBQ0EsSUFBQUUsbUJBQUEsR0FBQUMsc0JBQUEsQ0FBQUgsT0FBQTtBQUE4QyxTQUFBRyx1QkFBQUMsQ0FBQSxXQUFBQSxDQUFBLElBQUFBLENBQUEsQ0FBQUMsVUFBQSxHQUFBRCxDQUFBLGdCQUFBQSxDQUFBO0FBRTlDLElBQUFFLGlCQUFTLEVBQUM7RUFBRUMsT0FBTyxFQUFFLElBQUlDLDhCQUFPLENBQUM7QUFBRSxDQUFDLENBQUMiLCJpZ25vcmVMaXN0IjpbXX0=

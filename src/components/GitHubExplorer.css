@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin-top: 5%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 520px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.search-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #20a8d8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.user-card {
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+.user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.repo-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  max-height: 0;
+  width: 500px;
+  overflow: auto;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.user-card.expanded .repo-list {
+  max-height: 500px;
+  max-width: 500px;
+}
+
+.repo-item {
+  background-color: #dcdcdc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  max-width: 500px;
+  position: relative;
+}
+
+.repo-item a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+  max-width: 500px;
+}
+
+.repo-item a:hover {
+  text-decoration: underline;
+}
+
+.repo-item p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 500px;
+  cursor: pointer;
+}
+
+.star-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin-top: 5%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 95%;
+    padding: 15px;
+    max-width: 520px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+
+  .repo-list {
+    max-width: 100%;
+    width: 100% !important;
+    overflow-x: auto;
+  }
+
+  .repo-item p {
+    white-space: normal;
+    word-break: break-word;
+  }
+}
